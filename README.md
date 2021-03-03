@@ -19,4 +19,4 @@ Pay attention to MLX90614 sensor pinout		Arduino UNO board pinout (other boards 
 Once sensors are setup, the address must be changed to access data of each individual sensor. To do this disconnect one sensor from power and the data / clock line. Compile and upload this code onto the board. Change the address of the other sensor as well to your choice of listed slave addresses found in the MLX90614 data sheet (0x00…0x7F). Also remember to power cycle the sensor, by just removing and then re-connecting ground wire of sensor.
 
 After each sensor address has changed to a different slave address, upload this .ino file to your arduino board with the slave addresses used from before to receive each sensors field of view temperature to the serial monitor.
-![image](https://user-images.githubusercontent.com/50503074/109747054-b448a200-7b93-11eb-8222-379b52d93d8a.png)
+

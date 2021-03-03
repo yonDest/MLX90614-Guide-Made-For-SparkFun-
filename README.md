@@ -16,7 +16,9 @@ After downloading the I2C master library and adding it to the Arduino library, t
 
 (Patarroyo, Jaime. (2012, July 16). [digital image]. Retrieved from http://wiki.wiring.co/wiki/Connecting_Infrared_Thermometer_MLX90614_to_Wiring#Download_and_Install_I.C2.B2Cmaster_library)
 
----> ![image](https://user-images.githubusercontent.com/50503074/109747960-4604df00-7b95-11eb-944d-aaedaedec1a3.png)
+--->
+
+![image](https://user-images.githubusercontent.com/50503074/109747960-4604df00-7b95-11eb-944d-aaedaedec1a3.png)
 
 ![image](https://user-images.githubusercontent.com/50503074/109747971-4bfac000-7b95-11eb-88d3-668b2723917e.png)
 
@@ -27,5 +29,3 @@ Pay attention to MLX90614 sensor pinout		Arduino UNO board pinout (other boards 
 Once sensors are setup, the address must be changed to access data of each individual sensor. To do this disconnect one sensor from power and the data / clock line. Compile and upload this code onto the board. Change the address of the other sensor as well to your choice of listed slave addresses found in the MLX90614 data sheet (0x00…0x7F). Also remember to power cycle the sensor, by just removing and then re-connecting ground wire of sensor.
 
 After each sensor address has changed to a different slave address, upload this .ino file to your arduino board with the slave addresses used from before to receive each sensors field of view temperature to the serial monitor.
-
-

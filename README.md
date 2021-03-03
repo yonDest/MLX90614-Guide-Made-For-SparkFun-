@@ -15,7 +15,7 @@ After downloading the I2C master library and adding it to the Arduino library, t
 ![image](https://user-images.githubusercontent.com/50503074/109747823-11912300-7b95-11eb-90e9-e010f6335865.png)
 
 (Patarroyo, Jaime. (2012, July 16). [digital image]. Retrieved from http://wiki.wiring.co/wiki/Connecting_Infrared_Thermometer_MLX90614_to_Wiring#Download_and_Install_I.C2.B2Cmaster_library)
-![image](https://user-images.githubusercontent.com/50503074/109747960-4604df00-7b95-11eb-944d-aaedaedec1a3.png)
+---> ![image](https://user-images.githubusercontent.com/50503074/109747960-4604df00-7b95-11eb-944d-aaedaedec1a3.png)
 
 ![image](https://user-images.githubusercontent.com/50503074/109747971-4bfac000-7b95-11eb-88d3-668b2723917e.png)
 

@@ -11,7 +11,7 @@ The first step in communication to the MLX90614 sensor is to write an I2C initia
 
 After downloading the I2C master library and adding it to the Arduino library, the MLX90614 sensors can be put onto a breadboard and connected to power where the Arduino board SDA / SCL pins are shown below. Pull-up resistors of 3.7k Ohms will be needed for this set up.
  
-(Patarroyo, Jaime. (2012, July 16). [digital image]. Retrieved from http://wiki.wiring.co/wiki/Connecting_Infrared_Thermometer_MLX90614_to_Wiring#Download_and_Install_I.C2.B2Cmaster_library )
+(Patarroyo, Jaime. (2012, July 16)). [digital image]. Retrieved from http://wiki.wiring.co/wiki/Connecting_Infrared_Thermometer_MLX90614_to_Wiring#Download_and_Install_I.C2.B2Cmaster_library )
             
 Pay attention to MLX90614 sensor pinout		Arduino UNO board pinout (other boards vary)
 

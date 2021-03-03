@@ -12,6 +12,7 @@ Steps:
 The first step in communication to the MLX90614 sensor is to write an I2C initialization, start condition, stop condition, etc. functions where the TWCR and TWSR registers have certain bits set and the TWBR register is set to the bit rate. Fortunately, there is a dedicated library that can be downloaded from GitHub for this purpose. (https://github.com/DSSCircuits/I2C-Master-Library)
 
 After downloading the I2C master library and adding it to the Arduino library, the MLX90614 sensors can be put onto a breadboard and connected to power where the Arduino board SDA / SCL pins are shown below. Pull-up resistors of 3.7k Ohms will be needed for this set up.
+
 ![image](https://user-images.githubusercontent.com/50503074/109747823-11912300-7b95-11eb-90e9-e010f6335865.png)
 
 (Patarroyo, Jaime. (2012, July 16). [digital image]. Retrieved from http://wiki.wiring.co/wiki/Connecting_Infrared_Thermometer_MLX90614_to_Wiring#Download_and_Install_I.C2.B2Cmaster_library)

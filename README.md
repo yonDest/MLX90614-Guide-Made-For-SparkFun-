@@ -1,7 +1,9 @@
 # MLX90614-Guide-Made-For-SparkFun-
 Setup guide
 MLX90614 Guide
+
 Jonathan
+
 CU 
 
 Introduction 

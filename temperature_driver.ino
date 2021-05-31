@@ -1,5 +1,5 @@
 #include <i2cmaster.h>
-/**
+/*
    Two Infrared Thermometers MLX90614 
    I2C bus infrared sensors for tire temperature to monitor
  */

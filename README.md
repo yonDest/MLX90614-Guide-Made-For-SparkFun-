@@ -1,6 +1,6 @@
-# MLX90614-Guide-Made-For-SparkFun-
-Setup guide
-A Short MLX90614 Sensor Guide
+# SparkFun's MLX90614 Sensor Guide
+
+A Short MLX90614 Sensor Program and Setup Guide
 
 University of Colorado 
 

@@ -2,7 +2,7 @@
 
 A Short Melexis Sensor Program and Setup Guide
 
-University of Colorado 
+University of Colorado Formula SAE
 
 ## Introduction 
 Every object emits a wavelength in the infrared spectrum. According to the Stefan–Boltzmann law, the wavelength emitted from an object is proportional to its temperature. Infrared sensors read the infrared energy being emitted from the object, it produces an electrical signal of it to then be sent as data and processed. The Melexis MLX90614 Infrared Thermometer requires I2C protocol to communicate by way of sending its data. The MLX90614 has two interfaces: I2C and PWM (pulse width modulation) and will operate either with a 3.3V or 5V connection. The sensor contains a 17-bit ADC and a custom DSP chip to achieve high accuracy and resolution of objects being measured.

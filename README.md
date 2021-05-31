@@ -23,6 +23,6 @@ Every object emits a wavelength in the infrared spectrum. According to the Stefa
 Arduino UNO board pinout (other boards may vary)<br>
       ![image](https://user-images.githubusercontent.com/50503074/109747971-4bfac000-7b95-11eb-88d3-668b2723917e.png)
 
-5. Once sensors are setup accordingly, each address must be changed to access the data of each individual sensor connected. Change the address of the other sensors to your choice of listed slave addresses found in the Melexis MLX90614 data sheet (0x00…0x7F). To do this, disconnect the sensor from power, as well as the SDA/SCL pins.
+5. Once sensors are setup accordingly, each address must be changed to access the data of each individual sensor connected. Change the address of the other sensors to your choice of listed slave addresses found in the Melexis MLX90614 data sheet (0x00…0x7F). To do this, disconnect the sensor from power as well as the SDA/SCL pins.
 ## Up and Running
 Compile and upload the [address](https://github.com/yonDest/tire-temperature-sys-with-infrared-sensors/blob/main/address_change_mlx.ino) change code file onto the board. It is important to power cycle the sensor by just removing and then reconnecting the ground wire of the sensor. After each sensor address has changed to a different slave address, upload the driver [ino](https://github.com/yonDest/tire-temperature-sys-with-infrared-sensors/blob/main/temperature_driver.ino) file to your arduino board with the slave addresses used from before to receive each sensors field of view temperature to the monitor.

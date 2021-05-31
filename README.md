@@ -11,7 +11,7 @@ Every object emits a wavelength in the infrared spectrum. According to the Stefa
    
    ... Functions where the TWCR and TWSR registers have certain bits set and the TWBR register is set to the bit rate. Fortunately, there is a dedicated library that can be downloaded from GitHub for this [purpose](https://github.com/DSSCircuits/I2C-Master-Library)
 
-2. After downloading the I2C master library and adding it to the Arduino library, the sensors can be put onto a breadboard and connected to power where the Arduino board's SDA / SCL pins are shown below. Also note, Pull-up resistors of 3.7k Ohms will be needed for this set up.
+2. After downloading the I2C master [library](https://github.com/yonDest/tire-temperature-sys-with-infrared-sensors/blob/main/I2C-Master-Library-master.zip) and adding it to the Arduino library, the sensors can be put onto a breadboard and connected to power where the Arduino board's SDA / SCL pins are shown below. Also note, Pull-up resistors of 3.7k Ohms will be needed for this set up.
 
 3. Pay attention to MLX90614 sensor pinout, Arduino board pinout below (other boards vary). Connect to either 3.3V or 5V.
 
@@ -20,10 +20,10 @@ Every object emits a wavelength in the infrared spectrum. According to the Stefa
 4. Look for the data line (SDA) and the clock line (SCL) pins on the board, which should be clearly labelled. Using the image below, the sensor's SDA/SCL and power pin sides are shown with the tab oriented at the top of sensor.
             
       ![image](https://user-images.githubusercontent.com/50503074/109747960-4604df00-7b95-11eb-944d-aaedaedec1a3.png)<br>
-Arduino UNO board pinout [other boards may vary]<br>
+Arduino UNO board pinout (other boards may vary)<br>
       ![image](https://user-images.githubusercontent.com/50503074/109747971-4bfac000-7b95-11eb-88d3-668b2723917e.png)
 
-5. Once sensors are setup accordingly, each address must be changed to access the data of each individual sensor connected. Change the address of the other sensors to your choice of listed slave addresses found in the Melexis MLX90614 data sheet (0x00…0x7F). To do this, disconnect the sensor from power, as well as the SDA/SCL pins. Compile and upload the driver code onto the board. It is important to power cycle the sensor by just removing and then reconnecting the ground wire of the sensor. (code for address changing listed in project repo as "address_change_mlx.ino")
+5. Once sensors are setup accordingly, each address must be [changed](https://github.com/yonDest/tire-temperature-sys-with-infrared-sensors/blob/main/address_change_mlx.ino) to access the data of each individual sensor connected. Change the address of the other sensors to your choice of listed slave addresses found in the Melexis MLX90614 data sheet (0x00…0x7F). To do this, disconnect the sensor from power, as well as the SDA/SCL pins. Compile and upload the driver code onto the board. It is important to power cycle the sensor by just removing and then reconnecting the ground wire of the sensor.
 
 
 After each sensor address has changed to a different slave address, upload this .ino file to your arduino board with the slave addresses used from before to receive each sensors field of view temperature to the serial monitor.
